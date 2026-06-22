@@ -1,0 +1,38 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<abapGit version="v1.0.0" serializer="LCL_OBJECT_SIA6" serializer_version="v1.0.0">
+ <asx:abap xmlns:asx="http://www.sap.com/abapxml" version="1.0">
+  <asx:values>
+   <SIA6>
+    <MAIN_OBJECT>
+     <NAME>ZIAM_LO08_SALESRPT_EXT</NAME>
+     <TYPE>SIA6</TYPE>
+     <DESCRIPTION>EINV: IAM App for lo08 salesrpt</DESCRIPTION>
+     <RESPONSIBLE>CB9980000002</RESPONSIBLE>
+     <MASTER_LANGUAGE>EN</MASTER_LANGUAGE>
+     <MASTER_SYSTEM>BCE</MASTER_SYSTEM>
+     <PACKAGE_REF>
+      <PACKAGE_NAME>ZLO08_01</PACKAGE_NAME>
+     </PACKAGE_REF>
+     <ABAP_LANGU_VERSION>5</ABAP_LANGU_VERSION>
+    </MAIN_OBJECT>
+    <APP_ID>ZIAM_LO08_SALESRPT_EXT</APP_ID>
+    <APP_TYPE>EXT</APP_TYPE>
+    <ABAP_LANGUAGE_VERSION>5</ABAP_LANGUAGE_VERSION>
+    <UI_APP_ID>ZLO08_SALES_RPT_UI5R</UI_APP_ID>
+    <SERVICE>
+     <item>
+      <REL_NAME>ZSB_LO08_SALESRPT</REL_NAME>
+      <REL_TYPE>G4BA</REL_TYPE>
+      <APP_ID>ZIAM_LO08_SALESRPT_EXT</APP_ID>
+      <SRVC_NAME>4EC45D8CBFE02364069BBDF7BC49F8</SRVC_NAME>
+      <SRVC_TYPE>HT</SRVC_TYPE>
+      <UIAD_SRC>ZLO08_SALES_RPT_UI5R</UIAD_SRC>
+      <TEXT>LO08: Service Bindings  for sales report</TEXT>
+      <TYPE_TEXT>OData V4</TYPE_TEXT>
+     </item>
+    </SERVICE>
+    <PUBLISH_STATUS>p</PUBLISH_STATUS>
+   </SIA6>
+  </asx:values>
+ </asx:abap>
+</abapGit>

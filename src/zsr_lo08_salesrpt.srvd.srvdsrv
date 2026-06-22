@@ -1,0 +1,4 @@
+@EndUserText.label: 'LO08: Service Definition for LO08'
+define service ZSR_LO08_salesrpt {
+  expose ZC_LO08_SALESRPT as Sales;
+}
